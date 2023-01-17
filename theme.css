@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+}
+.nav{
+    width: 100vw; 
+    height: 70px;
+    background-color:rgb(177, 222, 233);
+    display:flex;
+}
+.nav img{
+    position: absolute;
+top: 10px;
+left: 40px;
+}
+.nav h1{
+    color:rgb(5, 135, 158) ;
+    font-size: 40px;
+    position: absolute;
+top: 15px;
+left: 130px;
+font-family:Arial, Helvetica, sans-serif;
+}
+.nav li{
+text-decoration-style: none;
+display: flex;
+font-size: 18px;
+position: relative;
+top: 5px;
+left: 450px;
+padding: 20px;
+}
+ a{
+    text-decoration: none;
+    color: blue;
+}
+.nav button{
+    background-color: rgba(10, 128, 163, 0.932);
+    border: none;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.body1{
+    width: 100vw;
+    height:350px;
+    background-color: rgb(63, 206, 241);
+    color: white;
+    text-align: center;
+    
+}
+.body1 h1{
+font-size: 50px; 
+padding-top: 150px; 
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.drop{
+    width: 120px;
+    height: 70px;
+    background-color:white;
+    position: absolute;
+    top: 70px;
+    right: 350px;
+}
+.drop ul{
+    margin-left: -15px;
+    
+   
+}
+.drop li{
+    padding: 7px;
+}
+.drop:hover #d{
+    display:block;
+}
+.body2{
+    display: grid;
+    place-items: center;
+    padding-top:70px;
+}
+.body2 h1{
+        font-family:Arial, Helvetica, sans-serif;
+        font-style:unset;
+    }
+    .part1{width: 100vw;
+        height: 470px;
+        display: flex;
+    }
+.imgpart1{
+    margin-top: 40px;
+    width: 330px;
+    height: 430px;
+    background-color: rgb(243, 243, 230);
+    position: relative;
+    left: 150px;
+}
+.imgpart1 h3{
+    margin-top: 15px;
+    text-align: center;
+}
+.icon{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.icon h6{
+padding-top: 5px;
+}
+ .icon  .material-symbols-outlined{
+    padding-left: 20px;
+
+}
+.imgpart1 p{
+    text-align:center ;
+    padding-top: 15px;
+}
+.imgpart1 button{
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(43, 107, 192);
+    color: white;
+    place-items: center;
+   position: relative;
+   top: 20px;
+   left: 100px;
+}
+.imgpart2{
+    margin-top: 40px;
+    width: 330px;
+    height: 430px;
+    background-color: rgb(231, 230, 228);
+    position: relative;
+    left: 200px;
+}
+.imgpart2 h3{
+    margin-top: 15px;
+    text-align: center;
+}
+.icon1{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.icon1 h6{
+padding-top: 5px;
+}
+.icon1 .material-symbols-outlined{
+    padding-left: 20px;
+}
+.imgpart2 p{
+    text-align:center ;
+    padding-top: 15px;
+}
+.imgpart2 button{
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(43, 107, 192);
+    color: white;
+    place-items: center;
+   position: relative;
+   top: 20px;
+   left: 100px;
+}.imgpart3{
+    margin-top: 40px;
+    width: 330px;
+    height: 430px;
+    background-color: rgb(231, 230, 228);
+    position: relative;
+    left: 250px;
+}
+.imgpart3 h3{
+    margin-top: 15px;
+    text-align: center;
+}
+.icon2{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.icon2 h6{
+padding-top: 5px;
+}
+.icon2 .material-symbols-outlined{
+    padding-left: 20px;
+}
+.imgpart3 p{
+    text-align:center ;
+    padding-top: 15px;
+}
+.imgpart3 button{
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(43, 107, 192);
+    color: white;
+    place-items: center;
+   position: relative;
+   top: 20px;
+   left: 100px;
+}
+.part2{width: 100vw;
+    height: 450px;
+    display: flex;
+    
+}
+.TR{ 
+    margin-top: 80px;
+margin-left: 600px;
+}
+.TR button{
+    margin: 0;
+    margin-left: -3px;
+    border: none;
+    color: rgb(76, 126, 233);
+}
+
+    .TR  .material-symbols-outlined{
+        color: rgb(17, 45, 201);
+        margin-left: -2px;
+}
+ .footer{
+    display: flex;
+    width: 100vw;
+    height: 550px;
+    background-color: rgba(15, 177, 206, 0.952);
+    margin-top: 70px;
+}
+.footerpart{
+    width: 300px;
+   position: relative;
+   top: 50px;
+   left: 40px;
+} 
+.footerpart1{
+    display: flex;
+}
+.footerpart1 h1{
+    margin-left: 20px;
+    font-size: 40px;
+}
+.footerparagraph{
+    margin-top: 20px;
+    color: white;
+    text-align: justify;
+}
+.footericon1{
+    margin-top: 20px;
+    color: rgb(13, 94, 245);
+    
+}
+.footericon1 i{
+    border:2px solid rgb(113, 90, 243);
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+}
+.footerpartl{
+    width: 300px; 
+    position: relative;
+    top: 55px;
+    left: 100px;
+}
+.footerpartl h3{
+    color: white;
+    padding-left: 10px;
+}
+.footerpart2{
+    color: rgb(36, 33, 189);
+}
+.fpart1{
+    display: flex;
+    margin-top: 20px;
+}
+.ppart1{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.fpart2{
+    display: flex;
+    margin-top: 20px;
+}
+.ppart2{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.fpart3{
+    display: flex;
+    margin-top: 20px;
+}
+.ppart3{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+ .material-symbols-outlined{
+    color: rgb(17, 45, 201);
+    margin-left: -2px;
+}
+.footerpartm{
+    width: 200px;
+    position: relative;
+    top: 55px;
+    left: 200px;
+}
+.fhead{
+color: rgb(48, 45, 221);
+margin-bottom: 30px;
+}
+.ftable{
+    margin-left: -20px;
+}
+.ftable li{
+    font-size: 20px;
+    color: white;
+    list-style-type: circle;
+    padding-bottom: 15px;
+}
+.footerR{
+    width: 300px;
+    position: relative;top: 55px;
+    left: 200px;
+}
+.footerR h2{
+    color: rgb(48, 45, 221);
+    margin-bottom: 30px;
+}
+.form input{
+    padding-left: 10px;
+    font-size: 15px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
+}
+.formbutton button{
+    width: 255px;
+    height: 40px; 
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.formbutton button:hover{
+    background-color: green;
+}
+.fix{padding-left: 5px;
+    padding-top: 15px;
+    text-align: center;
+    width: 30px;
+    height: 40px;
+    background: rgb(8, 228, 228);
+    border-radius: 30px;
+}
+.fix{
+  position: relative;
+  top: 50px;
+  left: 250px;
+}
+.write{
+    position: relative;
+    top: 100px;
+    right: 350px;
+}
+.write h4 {
+    font-size: 20px;
+    color: rgb(94, 88, 15);
+    margin-top: -20px;
+}
